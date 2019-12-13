@@ -19,12 +19,8 @@ const schema = {
     type: String,
     optional: true,
     canRead: ['guests'],
-    /*
-
-    Uncomment on #Step12:
-
-    */
     resolveAs: {
+      relation: 'hasOne',
       fieldName: 'user',
       type: 'User',
     },
@@ -38,7 +34,7 @@ const schema = {
     canCreate: ['members'],
     canUpdate: ['members'],
     searchable: true,
-    // intl: true, // Uncomment on #Step19
+    intl: true, // Uncomment on #Step19
   },
 
   review: {

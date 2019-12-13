@@ -25,7 +25,7 @@ By the way, we've been talking about auto-generated mutations but you can also [
 
 const Step14 = () => (
   <Components.Step step={14} text={text} after={after}>
-    {/* <Components.Mutations /> */}
+    { <Components.Mutations /> }
   </Components.Step>
 );
 

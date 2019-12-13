@@ -6,7 +6,7 @@ import Movies from '../../modules/collection.js';
 // uncomment children on #Step15:
 const MoviesNew = () => (
   <div className="movies-new">
-    {/* <Components.SmartForm collection={Movies} mutationFragmentName="MovieFragment"/> */}
+    { <Components.SmartForm collection={Movies} mutationFragmentName="MovieFragment"/> }
   </div>
 );
 

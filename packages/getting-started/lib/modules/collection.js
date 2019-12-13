@@ -26,9 +26,9 @@ Movies = createCollection({
 
   schema,
 
-  // permissions, // uncomment on #Step17
+  permissions, // uncomment on #Step17
 
-  // defaultInput: { orderBy: { createdAt: 'desc' } } // uncomment on #Step18
+  defaultInput: { orderBy: { createdAt: 'desc' } } // uncomment on #Step18
   
 });
 
